@@ -18,19 +18,10 @@ const Nav = () => (
       className="nav-item"
       activeClassName="nav-active"
       key="1"
-      to="skills"
+      to="experiences"
       exact
     >
-      Compétences
-    </NavLink>
-    <NavLink
-      className="nav-item"
-      activeClassName="nav-active"
-      key="4"
-      to="productions"
-      exact
-    >
-      Réalisations
+      Expériences
     </NavLink>
     <NavLink
       className="nav-item"
@@ -41,15 +32,8 @@ const Nav = () => (
     >
       Parcours
     </NavLink>
-    <NavLink
-      className="nav-item"
-      activeClassName="nav-active"
-      key="3"
-      to="informations"
-      exact
-    >
-      Informations
-    </NavLink>
+
+
   </nav>
 );
 
