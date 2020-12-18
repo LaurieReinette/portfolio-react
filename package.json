@@ -51,8 +51,8 @@
     "terser-webpack-plugin": "*",
     "webpack": "^5.11.0",
     "webpack-cli": "*",
-    "webpack-merge": "*",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "*"
   },
   "dependencies": {
     "axios": "^0.21.0",

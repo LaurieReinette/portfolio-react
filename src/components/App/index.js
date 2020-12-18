@@ -1,9 +1,15 @@
 // == Import npm
 import React from 'react';
 
+import { Switch, Route, Redirect } from 'react-router-dom';
+
 import Header from 'src/components/Header';
 import Footer from 'src/components/Footer';
 import Main from 'src/components/Main';
+import Skills from 'src/components/Skills';
+import ProfessionnalCareer from 'src/components/ProfessionnalCareer';
+import Informations from 'src/components/Informations';
+import Productions from 'src/components/Productions';
 
 // == Import
 import './styles.scss';
@@ -12,7 +18,13 @@ import './styles.scss';
 const App = () => (
   <div className="app">
     <Header />
-    <Main />
+    <Switch>
+      <Route exact path="/" component={Main} />
+      <Route exact path="/skills" component={Skills} />
+      <Route exact path="/professionnal-career" component={ProfessionnalCareer} />
+      <Route exact path="/informations" component={Informations} />
+      <Route exact path="/productions" component={Productions} />
+    </Switch>
     <Footer />
   </div>
 );
