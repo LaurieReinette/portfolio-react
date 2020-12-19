@@ -1,8 +1,8 @@
 .footer {
-  background-color: rgba($color: #f0f, $alpha: 0.9);  font-size: 1.5em;
-  position: absolute;
-  bottom: 0;
+  background-color: rgba($color: blue, $alpha: 0.9);
+  font-size: 1.5em;
   width: 100%;
+  display: block;
   .footer-logos {
     position: relative;
     top: 50%;

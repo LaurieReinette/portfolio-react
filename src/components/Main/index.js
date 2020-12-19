@@ -6,6 +6,7 @@ import './main.scss';
 
 const Main = () => (
   <main className="main">
+
     <h1>
       Bienvenue sur mon port folio
     </h1>
@@ -15,11 +16,11 @@ const Main = () => (
       Après avoir suivi la <a href="https://oclock.io/formations/developpeur-web">formation O'Clock</a> terminée en apothéose avec la spécialisation Symfony,
       j'ai décidé de continuer en apprenant React JS.
     </article>
-    <h2>
-      Compétences:
-    </h2>
+
     <article>
-    <h3> Technologies</h3>
+      <h2>
+        Technologies
+      </h2>
       <div className="skills-list">
         <div>
           <h4>
@@ -57,7 +58,9 @@ const Main = () => (
       </div>
     </article>
     <article>
-      <h4></h4>
+      <h2>
+        Compétences:
+      </h2>
       <ul>
         <li>Création d'application web from scratch</li>
         <li>de la production au déploiement sur le serveur</li>

@@ -11,6 +11,20 @@ import './header.scss';
 const Header = () => (
   <div className="header-div">
     <header className="header">
+      <div>
+        <div className="header-logos">
+          <a href="https://www.linkedin.com/in/lauriereinette/" target="_blank" rel="noopener noreferrer">
+            <img src={linkedin} alt="linkeDin logo" />
+          </a>
+          <a href="https://github.com/LaurieReinette" target="_blank" rel="noopener noreferrer">
+            <img src={github} alt="github logo" />
+          </a>
+        </div>
+        <a href="mailto:contact@lauriereinette.fr">contact@lauriereinette.fr</a>
+        <p>
+          Paris et Île de France
+        </p>
+      </div>
       <NavLink
         className="nav-item"
         activeClassName="nav-active"
@@ -21,23 +35,11 @@ const Header = () => (
         <h1>
           Laurie Reinette <br />
           Developpeuse web junior <br />
-          React Symfony
+          ReactJs Symfony
         </h1>
       </NavLink>
-      <div className="footer-logos">
-        <a href="https://www.linkedin.com/in/lauriereinette/" target="_blank" rel="noopener noreferrer">
-          <img src={linkedin} alt="linkeDin logo" />
-        </a>
-        <a href="https://github.com/LaurieReinette" target="_blank" rel="noopener noreferrer">
-          <img src={github} alt="github logo" />
-        </a>
-      </div>
-      <a href="mailto:contact@lauriereinette.fr">contact@lauriereinette.fr</a>
-      <p>
-        Paris et Île de France
-      </p>
+      <Nav />
     </header>
-    <Nav />
   </div>
 );
 
