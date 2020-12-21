@@ -1,0 +1,11 @@
+@import 'src/styles/vars';
+
+.diabetica {
+  font-size: 1.5rem;
+  margin: 0 auto;
+  pre {
+    code {
+      color: grey;
+    }
+  }
+}

@@ -6,7 +6,6 @@ import './main.scss';
 
 const Main = () => (
   <main className="main">
-
     <h1>
       Bienvenue sur mon port folio
     </h1>
